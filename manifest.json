@@ -1,0 +1,27 @@
+{
+  "name": "Messenger Notificatons",
+  "description": "Messenger Notificatons",
+  "version": "1.0.0",
+  "browser_action": {
+    "default_icon": "images/mess48.png"
+  },
+  "icons": {
+    "16": "images/mess16.png",
+    "32": "images/mess32.png",
+    "48": "images/mess48.png",
+    "128": "images/mess128.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "https://*.facebook.com/*",
+    "contextMenus",
+    "tabs",
+    "background"
+  ],
+  "manifest_version": 2
+}
+
